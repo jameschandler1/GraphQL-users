@@ -3,7 +3,7 @@ const axios = require("axios");
 const { GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLSchema } = graphql;
 
 const UserType = new GraphQLObjectType({
-  name: "User", //
+  name: "User",
   fields: {
     id: { type: GraphQLString },
     firstName: { type: GraphQLString },

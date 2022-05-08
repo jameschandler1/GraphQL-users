@@ -3,12 +3,30 @@
     { 
       "id": 26,
       "firstName": "Quinn",
-      "age": 22
+      "age": 22, 
+      "companyId": "1"
     },
     { 
       "id": 90,
       "firstName": "Xavier",
       "age": 26
+    },
+    { 
+      "id": 12,
+      "firstName": "Logan",
+      "age": 30
+    }
+  ],
+  "companies": [
+    { 
+      "id": 1,
+      "name": "Google",
+      "description": "search engine"
+    },
+    { 
+      "id": 2,
+      "name": "Facebook",
+      "description": "social network"
     }
   ]
 }
