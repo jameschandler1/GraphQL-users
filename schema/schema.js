@@ -60,6 +60,28 @@ const RootQuery = new GraphQLObjectType({
   },
 });
 
+const mutation = new GraphQLObjectType({
+  name: "Mutation",
+  fields: {
+    addUser: {
+      type: UserType,
+      args: {
+        firstName: {type: GraphQLString},
+        age: {type: GraphQLInt},
+        companyId: {type: GraphQLString}
+      },
+      resolve(parentValue, args) {
+        return axios
+          .post(`http://localhost:3000/users`, {
+            firstName: args.firstName,
+            age: args.age,
+            companyId: args.companyId
+          })
+      }
+    }
+  }
+});
+
 module.exports = new GraphQLSchema({
   query: RootQuery,
 });

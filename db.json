@@ -1,9 +1,9 @@
 {
   "users": [
-    { 
+    {
       "id": 26,
       "firstName": "Quinn",
-      "age": 22, 
+      "age": 22,
       "companyId": "1"
     },
     {
@@ -20,12 +20,12 @@
     }
   ],
   "companies": [
-    { 
+    {
       "id": 1,
       "name": "Google",
       "description": "search engine"
     },
-    { 
+    {
       "id": 2,
       "name": "Facebook",
       "description": "social network"
