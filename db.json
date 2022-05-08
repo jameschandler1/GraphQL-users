@@ -6,15 +6,17 @@
       "age": 22, 
       "companyId": "1"
     },
-    { 
+    {
       "id": 90,
       "firstName": "Xavier",
-      "age": 26
+      "age": 26,
+      "companyId": "2"
     },
-    { 
+    {
       "id": 12,
       "firstName": "Logan",
-      "age": 30
+      "age": 30,
+      "companyId": "2"
     }
   ],
   "companies": [
