@@ -17,6 +17,11 @@
       "firstName": "Logan",
       "age": 30,
       "companyId": "2"
+    },
+    {
+      "firstName": "James",
+      "age": 26,
+      "id": 91
     }
   ],
   "companies": [
