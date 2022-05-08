@@ -22,6 +22,11 @@
       "firstName": "James",
       "age": 26,
       "id": 91
+    },
+    {
+      "firstName": "Winston",
+      "age": 36,
+      "id": 92
     }
   ],
   "companies": [
